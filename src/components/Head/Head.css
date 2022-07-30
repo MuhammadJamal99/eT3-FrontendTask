@@ -1,0 +1,34 @@
+.head {
+    background-image: url(../../assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(6,32,51,.8);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.head-text {
+    position: absolute;
+    color: #d2a131;
+    font-size: 60px;
+    font-weight: 600;
+    top: 170px;
+    left: 50px;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+}
+.section-text {
+    margin-left: 75px;
+}
+@media only screen and (max-width: 600px) {
+    .head {
+        background-size: cover;
+        width: 100%;
+    }
+    .head-text {
+        left: 30px;
+        font-size: 20px;
+    }
+    .section-text {
+        margin-left: 30px;
+    }
+}
